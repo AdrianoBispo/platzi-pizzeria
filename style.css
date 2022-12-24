@@ -1,0 +1,66 @@
+* {
+    font: 12px sans-serif;
+}
+
+body {
+    background-image: url("assets/FUNDO.png");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: 100%;
+}
+
+header {
+    margin-top: 25px;
+    height: 80px; 
+}
+
+header > nav {
+    float: right;
+}
+
+header > nav > a {
+    padding: 25px 10px;
+    text-decoration: none;
+    color: #fff;
+}
+
+h2 {
+    color: rgb(255, 255, 255);
+}
+
+.button {
+    width: 115px;
+    height: 25px;
+    background: #99cc41;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: bold;
+}
+
+section {
+    text-align: center;
+}
+
+section > figure {
+    float: left;
+}
+
+#logomarca {
+    width: 30%;
+}
+
+#depoimentoFounder {
+    width: 30%;
+}
+
+#section-depoimento {
+    background-color: #99cc41;
+}
+
+footer {
+    color: black;
+    background-color: gray;
+    height: 30px;
+} 
