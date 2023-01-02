@@ -122,8 +122,8 @@
 }
 
 .botao {
-    /*  width: 209.9px;
-    height: 57.1px;*/
+    width: 209.9px;
+    height: 57.1px;
     padding: 10px 10px;
     border-radius: 5px;
     background-color: #98ca3f;
@@ -143,6 +143,10 @@ header>nav>a {
 a {
     color: black;
     text-decoration: none;
+}
+
+a:hover {
+    border-bottom: 2px solid #98ca3f;
 }
 
 header>nav>a:hover:after {
@@ -430,6 +434,3 @@ section#footer-esquerda {
     margin: auto;
 }
 
-a:hover {
-    border-bottom: 2px solid #98ca3f;
-}
