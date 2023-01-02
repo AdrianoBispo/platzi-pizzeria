@@ -1,5 +1,3 @@
-@media only screen and (max-width: 600px) {}
-
 @font-face {
     font-family: 'Aileron Regular';
     font-style: normal;
@@ -112,15 +110,12 @@
     src: local('Aileron Heavy Italic'), url('fonts/Aileron-HeavyItalic.woff') format('woff');
 }
 
-/*mostrar o troubleshooting*/
-
 * {
-    /*font: 12px sans-serif;*/
-    font-family: Aileron;
+    font: 12px Aileron;
 }
 
 #home {
-    background-image: url("");
+    background-image: url("../assets/FUNDO.png");
     background-repeat: no-repeat;
     background-position: right top;
     background-size: 100%;
