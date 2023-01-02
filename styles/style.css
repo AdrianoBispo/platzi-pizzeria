@@ -1,3 +1,8 @@
+:root {
+    --corPrincipal: #f8b82e;
+    --corEscura: #6e4b00;
+  }
+
 @font-face {
     font-family: 'Aileron Regular';
     font-style: normal;
@@ -126,8 +131,9 @@
     height: 57.1px;
     padding: 10px 10px;
     border-radius: 5px;
-    background-color: #98ca3f;
+    background-color: var(--corPrincipal);
     color: white;
+    cursor: pointer;
 }
 
 header>nav {
