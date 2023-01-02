@@ -10,6 +10,7 @@
     
     <title>Platzi Pizzeria - Home</title>
 </head>
+
 <body>
     <header>
         <nav>
@@ -19,7 +20,7 @@
         </nav>
     </header>
 
-    <section id="logo">
+    <section id="intro">
         <img id="logomarca" src="assets/logo.png" alt="logo" />
         <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ut blandit 
@@ -29,7 +30,7 @@
         <a class="button">Faça seu Pedido</a>
     </section>
     
-    <section>
+    <section id="secion-das-figuras">
         <figure>
             <img src="assets/sabor.png" alt="unicórnio" />
             <h2>Sabor <span>Incomparável</span></h2>
@@ -52,30 +53,34 @@
         </figure>
     </section>
 
-    <section id="section-depoimento">
-        <figure>
-            <img id="depoimentoFounder" src="assets/foto-depoimento.jpg" alt="depoimento do CEO and Founder" />
-            <p>
-                "Lorem ipsum dolor sit amet, 
-                consectetur adipiscing elit.
-                Pellentesque ut blandit sapien, id 
-                molestie quam. Maecenas eget
-                velit nulla. Aenean est sapien, 
-                vulputate non pulvinar a, ornare eu 
-                felis."
+    <section class="retangulo-depoimento">
+        <figure id="depoimento-texto">
+            <h1 class="nosso-compromisso">Nosso compromisso</h1>
+            <p class="texto-depoimento">
+                “Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ut blandit sapien, id molestie quam. Maecenas eget
+                velit nulla. Aenean est sapien, vulputate non pulvinar a, ornare eu felis.”
             </p>
-            <h3>Frank Hardy</h3>
-            <h4>CEO and Founder</h4>
+            <h4 class="nome-pessoa">
+                FRANK HARDY
+            </h4>
+            <h4 class="profissao">
+                CEO and Founder
+            </h4>
+
         </figure>
-        
+
+        <figure id="depoimento-foto">
+            <img class="foto-depoimento" src="assets/foto-depoimento.jpg" alt="CEO/Founder depoimento"/>
+        </figure>
+
     </section>
 
     <footer>
         <a>Status</a>
-        <a>Política de Privacidade</a>
+        <a>Termos e Serviços</a>
         <a>Contate-nos</a>
 
-        <a>Português</a>
+        <img src="assets/bandeira-brasil.svg" alt="icone da bandeira do Brasil">
         <a>Facebook</a>
         <a>Instagram</a>
         <a>Twitter</a>
