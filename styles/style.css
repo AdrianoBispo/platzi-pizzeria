@@ -122,11 +122,11 @@ footer {
     width: 100%;
 }
 
-#Instagram-icon {
+.Instagram-icon {
     width: 24px;
 }
 
-#LinkedIn-icon {
+.LinkedIn-icon {
     width: 26px;
     margin-right: 10px;
 }
@@ -243,7 +243,7 @@ section#diferenciais {
     background: none;
 }
 
-#header-menor {
+.header-menor {
     margin-top: 0px;
     background-color: #98ca3f;
     display: flex;
@@ -251,15 +251,15 @@ section#diferenciais {
     align-items: center;
 }
 
-#header-menor>section>img {
+.header-menor>section>img {
     width: 20%;
 }
 
-section#footer-direita {
+section.footer-direita {
     margin: auto;
 }
 
-section#footer-esquerda {
+section.footer-esquerda {
     margin: auto;
 }
 
@@ -308,11 +308,11 @@ section#footer-esquerda {
     grid-column: 2;
 }
 
-#header-direita {
+.header-direita {
     margin: auto;
 }
 
-#header-esquerda {
+.header-esquerda {
     margin: auto;
 }
 
