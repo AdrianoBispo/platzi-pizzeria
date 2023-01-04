@@ -3,120 +3,8 @@
     --corEscura: #6e4b00;
   }
 
-@font-face {
-    font-family: 'Aileron Regular';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Aileron Regular'), url('fonts/Aileron-Regular.woff') format('woff');
-}
-
-@font-face {
-    font-family: 'Aileron Italic';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Aileron Italic'), url('fonts/Aileron-Italic.woff') format('woff');
-}
-
-@font-face {
-    font-family: 'Aileron Thin';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Aileron Thin'), url('fonts/Aileron-Thin.woff') format('woff');
-}
-
-@font-face {
-    font-family: 'Aileron UltraLight';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Aileron UltraLight'), url('fonts/Aileron-UltraLight.woff') format('woff');
-}
-
-@font-face {
-    font-family: 'Aileron Thin Italic';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Aileron Thin Italic'), url('fonts/Aileron-ThinItalic.woff') format('woff');
-}
-
-@font-face {
-    font-family: 'Aileron UltraLight Italic';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Aileron UltraLight Italic'), url('fonts/Aileron-UltraLightItalic.woff') format('woff');
-}
-
-@font-face {
-    font-family: 'Aileron Light';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Aileron Light'), url('Aileron-Light.woff') format('woff');
-}
-
-@font-face {
-    font-family: 'Aileron Light Italic';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Aileron Light Italic'), url('fonts/Aileron-LightItalic.woff') format('woff');
-}
-
-@font-face {
-    font-family: 'Aileron SemiBold';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Aileron SemiBold'), url('fonts/Aileron-SemiBold.woff') format('woff');
-}
-
-@font-face {
-    font-family: 'Aileron SemiBold Italic';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Aileron SemiBold Italic'), url('fonts/Aileron-SemiBoldItalic.woff') format('woff');
-}
-
-@font-face {
-    font-family: 'Aileron Bold';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Aileron Bold'), url('fonts/Aileron-Bold.woff') format('woff');
-}
-
-@font-face {
-    font-family: 'Aileron Bold Italic';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Aileron Bold Italic'), url('fonts/Aileron-BoldItalic.woff') format('woff');
-}
-
-@font-face {
-    font-family: 'Aileron Black';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Aileron Black'), url('fonts/Aileron-Black.woff') format('woff');
-}
-
-@font-face {
-    font-family: 'Aileron Heavy';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Aileron Heavy'), url('fonts/Aileron-Heavy.woff') format('woff');
-}
-
-@font-face {
-    font-family: 'Aileron Black Italic';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Aileron Black Italic'), url('fonts/Aileron-BlackItalic.woff') format('woff');
-}
-
-@font-face {
-    font-family: 'Aileron Heavy Italic';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Aileron Heavy Italic'), url('fonts/Aileron-HeavyItalic.woff') format('woff');
-}
-
-* {
-    font: 12px Aileron;
+body {
+    font-size: 12px;
 }
 
 #home {
@@ -136,12 +24,16 @@
     cursor: pointer;
 }
 
+.botao:hover {
+    background-color: var(--corEscura);
+}
+
 header>nav {
     float: right;
 }
 
 header>nav>a {
-    /*padding: 25px 10px;*/
+    padding: 25px 10px;
     text-decoration: none;
     color: white;
 }
@@ -152,7 +44,7 @@ a {
 }
 
 a:hover {
-    border-bottom: 2px solid #98ca3f;
+    border-bottom: 2px solid var(--corEscura);
 }
 
 header>nav>a:hover:after {
@@ -206,7 +98,6 @@ section>figure {
 .texto-depoimento {
     width: 421px;
     height: 366px;
-    font-family: Aileron;
     font-size: 28px;
     font-weight: 300;
     font-style: italic;
@@ -217,22 +108,7 @@ section>figure {
     color: #182c3f;
 }
 
-.slider-seletor-ativo {
-    width: 78.8px;
-    height: 9.2px;
-    border-radius: 5.5px;
-    background-color: #182c3f;
-}
-
-.slider-seletor-inativo {
-    width: 78.8px; /*largura do meu elemento*/
-    height: 9.2px;
-    border-radius: 5.5px;
-    background-color: #ffffff;
-}
-
 footer {
-    font-family: Aileron;
     font-size: 14px;
     font-weight: bold;
     font-style: normal;
@@ -246,8 +122,13 @@ footer {
     width: 100%;
 }
 
-.icones-rodape {
+#Instagram-icon {
     width: 24px;
+}
+
+#LinkedIn-icon {
+    width: 26px;
+    margin-right: 10px;
 }
 
 /* quais problemas ainda existem - responsividade - cenas do proximo capitulo */
@@ -255,7 +136,6 @@ footer {
 .nosso-compromisso {
     /*qual o problema de ser este nome? autoreflexao e criticas - boas praticas*/
     height: 36px;
-    font-family: Aileron;
     font-size: 34px;
     font-weight: bold;
     font-style: normal;
@@ -269,7 +149,6 @@ footer {
 .nome-pessoa {
     width: 147px;
     height: 25px;
-    font-family: Aileron;
     /*pra que repetir toda vez?*/
     font-size: 21px;
     font-weight: bold;
@@ -283,7 +162,6 @@ footer {
 
 .profissao {
     height: 20px;
-    font-family: Aileron;
     font-size: 16px;
     font-weight: normal;
     font-style: normal;
@@ -297,7 +175,6 @@ footer {
 .texto-abaixo-logo {
     width: 665px;
     height: 109px;
-    font-family: Aileron;
     font-size: 18px;
     font-weight: 600;
     font-style: normal;
@@ -312,7 +189,6 @@ footer {
 .diferenciais-titulo strong {
     width: 158px;
     height: 63px;
-    font-family: Aileron;
     font-size: 24px;
     font-weight: bold;
     font-style: normal;
