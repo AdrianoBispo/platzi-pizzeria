@@ -1,12 +1,14 @@
-/* Imported Font */
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
-
+/* Styling Variables */
 :root {
     --corPrincipal: #f8b82e;
     --corEscura: #6e4b00;
   }
 
+
+
 /* STYLING FOR ALL PAGES */
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap'); /* Imported Text Font */
 
 body {
     font-family: 'Oswald', sans-serif;
@@ -17,11 +19,11 @@ body {
     border-radius: 15px;
 }
 
+
+
 /* STYLING HOME PAGE */
 
-
-/* Home Page Body */
-#home { 
+#home-body { 
     background-image: url("../assets/FUNDO.png");
     background-repeat: no-repeat;
     background-position: right top;
