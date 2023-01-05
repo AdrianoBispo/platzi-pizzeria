@@ -1,4 +1,4 @@
-/* Styling Variables */
+/* --- STYLING VARIABLES --- */
 :root {
     --corPrincipal: #f8b82e;
     --corEscura: #6e4b00;
@@ -6,7 +6,7 @@
 
 
 
-/* STYLING FOR ALL PAGES */
+/* --- STYLING FOR ALL PAGES --- */
 
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap'); /* Imported Text Font */
 
@@ -14,34 +14,9 @@ body {
     font-family: 'Oswald', sans-serif;
 }
 
-.border {
-    border: solid rgb(252, 2, 2);
-    border-radius: 15px;
-}
-
-
-
-/* STYLING HOME PAGE */
-
-#home-body { 
-    background-image: url("../assets/FUNDO.png");
-    background-repeat: no-repeat;
-    background-position: right top;
-    background-size: 100%;
-}
-
-.botao {
-    width: 209.9px;
-    height: 57.1px;
-    padding: 10px 10px;
-    border-radius: 5px;
-    background-color: var(--corPrincipal);
-    color: white;
-    cursor: pointer;
-}
-
-.botao:hover {
-    background-color: var(--corEscura);
+header {
+    margin-top: 25px;
+    height: 80px;
 }
 
 header>nav {
@@ -54,6 +29,12 @@ header>nav>a {
     color: white;
 }
 
+header>nav>a:hover:after {
+    width: 49.3px;
+    height: 0;
+    border: solid 3px #ffffff;
+}
+
 a {
     color: black;
     text-decoration: none;
@@ -63,27 +44,131 @@ a:hover {
     border-bottom: 2px solid var(--corEscura);
 }
 
-header>nav>a:hover:after {
-    width: 49.3px;
-    height: 0;
-    border: solid 3px #ffffff;
-}
-
-header {
-    margin-top: 25px;
-    height: 80px;
-}
-
 section {
     text-align: center;
 }
 
-.logomarca {
+section>figure {
+    float: left;
+}
+
+.border {
+    border: solid rgb(252, 2, 2);
+    border-radius: 15px;
+}
+
+.diferenciais-titulo strong {
+    width: 158px;
+    height: 63px;
+    font-size: 24px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.42;
+    letter-spacing: normal;
+    text-align: center;
+    color: #98ca3f;
+}
+
+footer {
+    font-size: 14px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.21;
+    letter-spacing: normal;
+    display: flex;
+    align-items: center;
+    height: 80px;
+    width: 100%;
+    background-color: #000;
+}
+
+section.footer-esquerda {
+    margin: auto;
+}
+
+section.footer-direita {
+    margin: auto;
+}
+
+.form-idioma {
+    text-decoration: none;
+}
+
+.select-idioma {
+    text-decoration: none;
+}
+
+.linkedin-icon {
+    width: 26px;
+    margin-right: 10px;
+}
+
+.instagram-icon {
+    width: 26px;
+    margin-right: 10px;
+}
+
+
+
+/* --- STYLING HOME PAGE --- */
+
+#home-body { 
+    background-image: url("../assets/FUNDO.png");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: 100%;
+}
+
+#logo {
+    height: 600px;
+    line-height: 5;
+}
+
+#logoMarca {
     width: 30%;
 }
 
-section>figure {
-    float: left;
+#text-below-logo {
+    width: 665px;
+    height: 109px;
+    font-size: 18px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.89;
+    letter-spacing: normal;
+    text-align: center;
+    color: #d2d2d2;
+    margin: auto;
+}
+
+#button {
+    width: 209.9px;
+    height: 57.1px;
+    padding: 10px 10px;
+    border-radius: 5px;
+    background-color: var(--corPrincipal);
+    color: white;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: var(--corEscura);
+}
+
+section#diferenciais {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    /*<==*/
+    align-content: center;
+    /*<==*/
+    align-self: center;
+    /**/
+    justify-content: center;
+    /**/
 }
 
 #diferenciais>figure {
@@ -93,6 +178,24 @@ section>figure {
     box-shadow: 0 2px 9px 0 rgba(0, 0, 0, 0.14);
     background-color: #ffffff;
     padding: 10px;
+}
+
+.diferenciais-titulo {
+    color: #2c2e30;
+}
+
+.saiba-mais:hover:after {
+    width: 133.9px;
+    height: 0;
+    border: solid 3px #98ca3f;
+}
+
+.slide-depoimento {
+    text-decoration: none;
+}
+
+.slides {
+    text-decoration: none;
 }
 
 .depoimento {
@@ -105,7 +208,7 @@ section>figure {
     align-items: center;
 }
 
-.foto-depoimento {
+.titulo-depoimento {
     width: 456.5px;
     /* eu inventei essas medidas , certo?*/
     height: 540.4px;
@@ -124,140 +227,17 @@ section>figure {
     color: #182c3f;
 }
 
-footer {
-    font-size: 14px;
-    font-weight: bold;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: 1.21;
-    letter-spacing: normal;
-    display: flex;
-    align-items: center;
-    height: 80px;
-    width: 100%;
-    background-color: #000;
+.usuario-depoimento {
+    text-decoration: none;
 }
 
-.Instagram-icon {
-    width: 24px;
+.infoUsuario-depoimento {
+    text-decoration: none;
 }
 
-.LinkedIn-icon {
-    width: 26px;
-    margin-right: 10px;
-}
 
-/* quais problemas ainda existem - responsividade - cenas do proximo capitulo */
 
-.nosso-compromisso {
-    /*qual o problema de ser este nome? autoreflexao e criticas - boas praticas*/
-    height: 36px;
-    font-size: 34px;
-    font-weight: bold;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: 1.35;
-    letter-spacing: normal;
-    text-align: left;
-    color: #ffffff;
-}
-
-.nome-pessoa {
-    width: 147px;
-    height: 25px;
-    /*pra que repetir toda vez?*/
-    font-size: 21px;
-    font-weight: bold;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: 1.19;
-    letter-spacing: normal;
-    text-align: left;
-    color: #ffffff;
-}
-
-.profissao {
-    height: 20px;
-    font-size: 16px;
-    font-weight: normal;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: 1.25;
-    letter-spacing: normal;
-    text-align: left;
-    color: #182c3f;
-}
-
-.texto-abaixo-logo {
-    width: 665px;
-    height: 109px;
-    font-size: 18px;
-    font-weight: 600;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: 1.89;
-    letter-spacing: normal;
-    text-align: center;
-    color: #d2d2d2;
-    margin: auto;
-}
-
-.diferenciais-titulo strong {
-    width: 158px;
-    height: 63px;
-    font-size: 24px;
-    font-weight: bold;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: 1.42;
-    letter-spacing: normal;
-    text-align: center;
-    color: #98ca3f;
-}
-
-.diferenciais-titulo {
-    color: #2c2e30;
-}
-
-.saiba-mais:hover:after {
-    width: 133.9px;
-    height: 0;
-    border: solid 3px #98ca3f;
-}
-
-section#logo {
-    height: 600px;
-    line-height: 5;
-}
-
-.foto-depoimento {
-    width: 300px;
-    height: 300px;
-    float: right;
-}
-
-section#diferenciais {
-    width: 100%;
-    height: 300px;
-    display: flex;
-    /*<==*/
-    align-content: center;
-    /*<==*/
-    align-self: center;
-    /**/
-    justify-content: center;
-    /**/
-}
-
-/*css-formatter - addon*/
-
-#depoimento-texto {
-    text-align: left;
-}
-
-#fino {
-    background: none;
-}
+/* --- PEDIDOS PAGE --- */
 
 .header-menor {
     margin-top: 0px;
@@ -271,17 +251,13 @@ section#diferenciais {
     width: 20%;
 }
 
-section.footer-direita {
-    margin: auto;
-}
-
-section.footer-esquerda {
-    margin: auto;
-}
-
 .imagem-pizza {
     width: 80%;
 }
+
+
+
+/* --- SABORES PAGE --- */
 
 #receitas {
     display: grid;
@@ -331,4 +307,3 @@ section.footer-esquerda {
 .header-esquerda {
     margin: auto;
 }
-

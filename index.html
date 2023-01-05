@@ -29,10 +29,10 @@
 
     <!-- Intro Section -->
     <section id="logo">
-        <img class="logomarca" src="./assets/logo.svg" />
-        <p class="texto-abaixo-logo">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ut blandit sapien, id molestie quam. Maecenas
+        <img id="logoMarca" src="./assets/logo.svg" />
+        <p id="text-below-logo">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ut blandit sapien, id molestie quam. Maecenas
             eget velit nulla. Aenean est sapien, vulputate non pulvinar a, ornare eu felis.</p>
-        <a class="botao">PEÇA ONLINE</a>
+        <a id="button">PEÇA ONLINE</a>
     </section>
 
     <!-- Card Sections -->
@@ -65,77 +65,33 @@
         </figure>
     </section>
 
-    <!-- Slide Area -->
+    <!-- Testimonial Slides
     <div class="slide-depoimento">
 
         <div class="slides">
-            <!-- Radio Buttons -->
+
+             Radio Buttons 
             <input type="radio" name="radio-btn" id="radio1">
             <input type="radio" name="radio-btn" id="radio2">
             <input type="radio" name="radio-btn" id="radio3">
 
-            <figure id="depoimento-texto1">
-                <h1 class="nosso-compromisso">Nosso Compromisso</h1>
+            <figure class="depoimento">
+                <h1 class="titulo-depoimento">Nosso compromisso</h1>
                 <p class="texto-depoimento">
                     “Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ut blandit sapien, id molestie quam. Maecenas eget
                     velit nulla. Aenean est sapien, vulputate non pulvinar a, ornare eu felis.”
                 </p>
-                <p class="nome-pessoa">
-                    FRANK HARDY
-                </p>
-                <p class="profissao">
-                    CEO and Founder
-                </p>
-    
+                <p class="infoUsuario-depoimento"> FRANK HARDY </p>
+                <p class="infoUsuario-depoimento"> CEO and Founder</p>
             </figure>
-
-            <figure id="depoimento-foto">
+    
+            <figure>
                 <img class="foto-depoimento" src="assets/foto-depoimento.jpg" />
             </figure>
 
         </div>
-        
-        <div>
-            <figure id="depoimento-texto2">
-                <h1 class="nosso-compromisso">Nosso compromisso</h1>
-                <p class="texto-depoimento">
-                    “Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ut blandit sapien, id molestie quam. Maecenas eget
-                    velit nulla. Aenean est sapien, vulputate non pulvinar a, ornare eu felis.”
-                </p>
-                <p class="nome-pessoa">
-                    FRANK HARDY
-                </p>
-                <p class="profissao">
-                    CEO and Founder
-                </p>
-    
-            </figure>
-            <figure id="depoimento-foto">
-                <img class="foto-depoimento" src="assets/foto-depoimento.jpg" />
-            </figure>
-        </div>
 
-        <div>
-            <figure id="depoimento-texto3">
-                <h1 class="nosso-compromisso">Nosso compromisso</h1>
-                <p class="texto-depoimento">
-                    “Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ut blandit sapien, id molestie quam. Maecenas eget
-                    velit nulla. Aenean est sapien, vulputate non pulvinar a, ornare eu felis.”
-                </p>
-                <p class="nome-pessoa">
-                    FRANK HARDY
-                </p>
-                <p class="profissao">
-                    CEO and Founder
-                </p>
-    
-            </figure>
-            <figure id="depoimento-foto">
-                <img class="foto-depoimento" src="assets/foto-depoimento.jpg" />
-            </figure>
-        </div>
-
-    </div>
+    </div> -->
 
     <!-- Footer -->
     <footer>
@@ -146,18 +102,26 @@
         </section>
 
         <section class="footer-direita">
-            
-            <img class="bandeira-brasil" src="./assets/bandeira-brasil.svg" />
+
+            <!-- Selection Language -->
+            <form class="form-idioma">
+                <select id="select-idioma">
+                    <option value="portugues">Português(PT-BR)</option>
+                    <option value="espanhol">Espanhol</option>
+                    <option value="ingles">Inglês</option>
+                </select>
+            </form>
 
             <!-- <a href="https://www.flaticon.com/br/icones-gratis/linkedin" title="linkedin ícones">Linkedin ícones criados por Freepik - Flaticon</a> -->
             <a href="https://www.linkedin.com/in/adriano-vin%C3%ADcius-bispo-da-silva-85293a240/">
-                <img class="LinkedIn-icon" src="./assets/linkedin-icon.png" />
+                <img class="linkedin-icon" src="./assets/linkedin-icon.png" />
             </a>
 
             <!-- <a href="https://www.flaticon.com/br/icones-gratis/instagram" title="instagram ícones">Instagram ícones criados por Freepik - Flaticon</a> -->
             <a href="https://www.instagram.com/eu_nicin/">
-                <img class="Instagram-icon" src="./assets/instagram-icon.png" />
+                <img class="instagram-icon" src="./assets/instagram-icon.png" />
             </a>
+            
         </section>
 
     </footer>
