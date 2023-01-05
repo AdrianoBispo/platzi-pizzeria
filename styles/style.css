@@ -6,11 +6,22 @@
     --corEscura: #6e4b00;
   }
 
+/* STYLING FOR ALL PAGES */
+
 body {
     font-family: 'Oswald', sans-serif;
 }
 
-#home {
+.border {
+    border: solid rgb(252, 2, 2);
+    border-radius: 15px;
+}
+
+/* STYLING HOME PAGE */
+
+
+/* Home Page Body */
+#home { 
     background-image: url("../assets/FUNDO.png");
     background-repeat: no-repeat;
     background-position: right top;
