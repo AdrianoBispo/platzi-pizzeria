@@ -1,10 +1,13 @@
+/* Imported Font */
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
 :root {
     --corPrincipal: #f8b82e;
     --corEscura: #6e4b00;
   }
 
 body {
-    font-size: 12px;
+    font-family: 'Oswald', sans-serif;
 }
 
 #home {
