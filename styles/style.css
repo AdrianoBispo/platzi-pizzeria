@@ -1,9 +1,9 @@
 /* --- STYLING FOR ALL PAGES --- */
 
 :root {
-    --corPrincipal: #f8b82e;
+    --corPrincipal: #fead00;
     --corBranca: #fff;
-    --corEscura: #6e4b00;
+    --corEscura: #211700;
     --fonte-principal: 'Oswald';
   }
 
@@ -83,8 +83,12 @@ footer {
     background-color: #000;
 }
 
-section.footer-esquerda {
-    margin: auto;
+section.footer-esquerda>.textos__footer {
+    margin-left: 2em;
+}
+
+.textos__footer:hover {
+    color: #fead00;
 }
 
 section.footer-direita {

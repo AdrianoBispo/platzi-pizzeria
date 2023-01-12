@@ -1,4 +1,6 @@
 #mapa-imagem {
-    width: 50vw;
-    height: 50vh;
+    text-align: center;
+    width: 80%;
+    height: 80%;
+    margin: 3em;
 }
