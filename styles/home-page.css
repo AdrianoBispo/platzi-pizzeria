@@ -15,6 +15,18 @@
     background-size: 100%;
 }
 
+.border {
+    border: solid var(--corPrincipal);
+    border-radius: 21px;
+    padding: 13px;
+    transition: all 0.2s;
+}
+
+.border:hover {
+    color: var(--corBranca);
+    background-color: var(--corPrincipal);
+}
+
 #logo {
     height: 600px;
     line-height: 5;
@@ -42,14 +54,16 @@
     width: 209.9px;
     height: 57.1px;
     padding: 10px 10px;
-    border-radius: 5px;
+    border-radius: 8px;
     background-color: var(--corPrincipal);
     color: var(--corBranca);
     cursor: pointer;
 }
 
-.button:hover {
+#button:hover {
     background-color: var(--corEscura);
+    color: var(--corPrincipal);
+    transition: all 0.2s;
 }
 
 section#diferenciais {
@@ -75,7 +89,15 @@ section#diferenciais {
 }
 
 .diferenciais-titulo {
-    color: #2c2e30;
+    width: 158px;
+    height: 63px;
+    font-size: 24px;
+    font-weight: 400;
+    font-family: var(--fonte-principal);
+    line-height: 1.42;
+    letter-spacing: normal;
+    text-align: center;
+    color: var(--corPrincipal)
 }
 
 .saiba-mais:hover:after {

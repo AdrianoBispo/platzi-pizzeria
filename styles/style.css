@@ -14,13 +14,13 @@
 
 body {
     font-family: var(--fonte-principal);
-    color: var(--corBranca);
     font-size: 16px;
     font-weight: 400;
 }
 
 header {
     color: var(--corBranca);
+    font-family: var(--fonte-principal);
     margin-top: 25px;
     height: 80px;
 }
@@ -31,12 +31,9 @@ header>nav {
 
 header>nav>a {
     padding: 25px 10px;
-    text-decoration: none;
-}
-
-a {
     color: var(--corBranca);
     text-decoration: none;
+    margin-right: 1em;
 }
 
 a:hover {
@@ -51,29 +48,10 @@ section>figure {
     float: left;
 }
 
-.border {
-    border: solid var(--corPrincipal);
-    border-radius: 15px;
-}
-
-.diferenciais-titulo strong {
-    width: 158px;
-    height: 63px;
-    font-size: 24px;
-    font-weight: bold;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: 1.42;
-    letter-spacing: normal;
-    text-align: center;
-    color: var(--corPrincipal)
-}
-
 footer {
-    font-size: 14px;
-    font-weight: bold;
-    font-style: normal;
-    font-stretch: normal;
+    color: var(--corBranca);
+    font-weight: 400;
+    font-family: var(--fonte-principal);
     line-height: 1.21;
     letter-spacing: normal;
     display: flex;
@@ -113,10 +91,7 @@ section.footer-direita {
     margin-right: 10px;
 }
 
-
-/* --- PEDIDOS PAGE --- */
-
-.header-menor {
+.header__secundario {
     margin-top: 0px;
     background-color: var(--corPrincipal);
     display: flex;
@@ -124,9 +99,19 @@ section.footer-direita {
     align-items: center;
 }
 
-.header-menor>section>img {
+.header__secundario>section>img {
     width: 20%;
 }
+
+.header__direita {
+    margin: auto;
+}
+
+.header__esquerda {
+    margin: auto;
+}
+
+
 
 .imagem-pizza {
     width: 80%;
@@ -177,10 +162,4 @@ section.footer-direita {
     grid-column: 2;
 }
 
-.header-direita {
-    margin: auto;
-}
 
-.header-esquerda {
-    margin: auto;
-}
