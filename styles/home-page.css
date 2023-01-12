@@ -15,6 +15,28 @@
     background-size: 100%;
 }
 
+header {
+    color: var(--corBranca);
+    font-family: var(--fonte-principal);
+    margin-top: 25px;
+    height: 80px;
+}
+
+header>nav {
+    float: right;
+}
+
+header>nav>a {
+    padding: 25px 10px;
+    color: var(--corBranca);
+    text-decoration: none;
+    margin-right: 1em;
+}
+
+a:hover {
+    color: var(--corPrincipal);
+}
+
 .border {
     border: solid var(--corPrincipal);
     border-radius: 21px;

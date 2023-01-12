@@ -12,33 +12,47 @@
     padding: 0;
 }
 
+.header__secundario {
+    height: 80px;
+    width: 100%;
+    background-color: var(--corPrincipal);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.header__secundario>.header__direita>a {
+    color: var(--corBranca);
+    margin-right: 2em;
+    font-family: var(--fonte-principal);
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.header__secundario>nav>a:hover {
+    color: var(--corEscura);
+}
+
+.header__direita {
+    float: right;
+}
+
+.header__esquerda {
+    margin: auto;
+    margin-left: -80px;
+}
+
+.header__esquerda>img {
+    width: 25%;
+}
+
 body {
     font-family: var(--fonte-principal);
     font-size: 16px;
     font-weight: 400;
 }
 
-header {
-    color: var(--corBranca);
-    font-family: var(--fonte-principal);
-    margin-top: 25px;
-    height: 80px;
-}
 
-header>nav {
-    float: right;
-}
-
-header>nav>a {
-    padding: 25px 10px;
-    color: var(--corBranca);
-    text-decoration: none;
-    margin-right: 1em;
-}
-
-a:hover {
-    color: var(--corEscura);
-}
 
 section {
     text-align: center;
@@ -82,42 +96,14 @@ section.footer-direita {
 }
 
 .linkedin-icon {
-    width: 26px;
-    margin-right: 10px;
+    width: 30px;
+    margin: 8px 10px 0px 0px;
 }
 
 .instagram-icon {
     width: 26px;
-    margin-right: 10px;
+    margin: 0px 10px 0px 0px;
 }
-
-.header__secundario {
-    margin-top: 0px;
-    background-color: var(--corPrincipal);
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-
-.header__secundario>section>img {
-    width: 20%;
-}
-
-.header__direita {
-    margin: auto;
-}
-
-.header__esquerda {
-    margin: auto;
-}
-
-
-
-.imagem-pizza {
-    width: 80%;
-}
-
-
 
 /* --- SABORES PAGE --- */
 
