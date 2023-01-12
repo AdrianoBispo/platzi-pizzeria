@@ -62,7 +62,7 @@ footer {
 }
 
 section.footer-esquerda>.textos__footer {
-    margin-left: 2em;
+    margin-left: 2.7em;
 }
 
 .textos__footer:hover {
@@ -70,7 +70,7 @@ section.footer-esquerda>.textos__footer {
 }
 
 section.footer-direita {
-    margin: auto;
+    margin-left: 950px;
 }
 
 .form-idioma {
