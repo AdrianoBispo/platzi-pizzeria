@@ -52,8 +52,6 @@ body {
     font-weight: 400;
 }
 
-
-
 section {
     text-align: center;
 }
@@ -75,23 +73,23 @@ footer {
     background-color: #000;
 }
 
-section.footer-esquerda>.textos__footer {
+.left-section>.footer-text-link {
     margin-left: 2.7em;
 }
 
-.textos__footer:hover {
+.footer-text-link:hover {
     color: #fead00;
 }
 
-section.footer-direita {
+.right-section {
     margin-left: 950px;
 }
 
-.form-idioma {
+.language-form {
     text-decoration: none;
 }
 
-.select-idioma {
+.language-select {
     text-decoration: none;
 }
 
