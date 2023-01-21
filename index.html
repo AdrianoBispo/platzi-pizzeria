@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="Pizzaria Platzi. Sabores incomparáveis, ingredientes de alta qualidade e compromisso de entrega." />
 
+    <!-- Platzi Pizzeria Icon -->
+    <link rel="icon" href="img/logo.png">
+
     <!-- Styles CSS -->
     <link rel="stylesheet" href="styles/style-all.css" />
     <link rel="stylesheet" href="styles/style-home.css" />
@@ -13,12 +16,14 @@
     <!-- Fonts Link -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap" />
     
     <title>Platzi Pizzeria - Home</title>
 </head>
 
 <body id="home-body">
+
+    <!-- Navigation Bar -->
     <header>
         <nav>
             <a href="index.html">Home</a>
@@ -29,102 +34,96 @@
 
     <!-- Intro Section -->
     <section id="logo">
-        <img id="logoMarca" src="./img/logo.svg" />
-        <p id="text-below-logo">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ut blandit sapien, id molestie quam. Maecenas
+        <img id="logo-white" src="./img/logo.svg" />
+        <p id="text-below">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ut blandit sapien, id molestie quam. Maecenas
             eget velit nulla. Aenean est sapien, vulputate non pulvinar a, ornare eu felis.</p>
-        <a id="button">PEÇA ONLINE</a>
+        <a id="button">PEÇA AQUI</a>
     </section>
 
-    <!-- Card Sections -->
-    <section id="diferenciais">
+    <!-- Cards Section -->
+    <section id="differentials">
         <figure>
-            <img src="img/icon-unicornio.svg" />
-            <h1 class="diferenciais-titulo">Sabor
-                <strong>Incomparável</strong>
-            </h1>
+            <img id="icon-unicorn" src="img/icon-unicornio.svg" />
+            <h1 class="differentials-title">Sabor <b>Incomparável</b> </h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ut blandit sapien, id molestie quam. </p>
-            <a class="saiba-mais">Saiba mais</a>
+            <a class="learn-more">Saiba mais</a>
         </figure>
 
         <figure>
-            <img src="img/icon-ingredientes.svg" alt="ingredientes" />
-            <h1 class="diferenciais-titulo">Ingredientes de
-                <strong>Alta qualidade</strong>
-            </h1>
+            <img id="icon-ingredients" src="img/icon-ingredientes.svg" alt="ingredientes" />
+            <h1 class="differentials-title">Ingredientes de <b>Alta qualidade</b> </h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ut blandit sapien, id molestie quam. </p>
-            <a class="saiba-mais">Saiba mais</a>
+            <a class="learn-more">Saiba mais</a>
         </figure>
 
         <figure>
             <img src="img/icon-cronometro.svg" />
-            <h1 class="diferenciais-titulo">Compromisso De
-                <strong>Entrega</strong>
-            </h1>
+            <h1 class="differentials-title">Compromisso De <b>Entrega</b> </h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ut blandit sapien, id molestie quam. </p>
-            <a class="saiba-mais">Saiba mais</a>
+            <a class="learn-more">Saiba mais</a>
         </figure>
     </section>
 
-    <!-- Testimonial Slides
-    <div class="slide-depoimento">
+    <!-- Slide Section -->
+    <section class="container-slide">
+        <figure id="container-figure">
+            <h1 class="container-title">Nosso compromisso:</h1>
+            <p class="container-text">
+                "Lorem ipsum dolor sit amet, consectetur adizicing elit.
+                Pellentesque ut blandit sapien, id molestie quam.
+                Mecenas eget velit nulla.
+                Aenean est sapien, vulputate non pulvinar, um ornare eu felis."
+            </p>
+            <p class="person-name">FRANK HARDY</p>
+            <p class="person-profession">CEO and Founder</p>
+            <img class="slider-bar" src="imagens/barra.png" alt="imagem">
+        </figure>
 
-        <div class="slides">
+        <!-- Testimonial Picture -->
+        <figure id="testimonial-picture">
+            <img class="person-picture" src="imagens/FOTO_DEPOIMENTO.jpg" />
+        </figure>
+    </section>
 
-             Radio Buttons 
-            <input type="radio" name="radio-btn" id="radio1">
-            <input type="radio" name="radio-btn" id="radio2">
-            <input type="radio" name="radio-btn" id="radio3">
-
-            <figure class="depoimento">
-                <h1 class="titulo-depoimento">Nosso compromisso</h1>
-                <p class="texto-depoimento">
-                    “Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ut blandit sapien, id molestie quam. Maecenas eget
-                    velit nulla. Aenean est sapien, vulputate non pulvinar a, ornare eu felis.”
-                </p>
-                <p class="infoUsuario-depoimento"> FRANK HARDY </p>
-                <p class="infoUsuario-depoimento"> CEO and Founder</p>
-            </figure>
-    
-            <figure>
-                <img class="foto-depoimento" src="img/foto-depoimento.jpg" />
-            </figure>
-
-        </div>
-
-    </div> -->
+    <!-- Black Logo -->
+    <section id="black-logo">
+        <img src="img/logo_preta.svg" alt="black logo"/>
+    </section>
 
     <!-- Footer -->
     <footer>
-        <section class="footer-esquerda">
-            <a class="textos__footer">Status</a>
-            <a class="textos__footer">Política de privacidade</a>
-            <a class="textos__footer">Contate-nos</a>
+        <!-- Left Section -->
+        <section class="left-section">
+            <a class="footer-text-link">Status</a>
+            <a class="footer-text-link">Política de privacidade</a>
+            <a class="footer-text-link">Contate-nos</a>
         </section>
 
-        <section class="footer-direita">
-            <form class="form-idioma">
-                <select id="select-idioma">
+        <!-- Right Section -->
+        <section class="right-section">
+            <form class="language-form">
+                <select id="language-select">
                     <option value="portugues">Português(PT-BR)</option>
                     <option value="espanhol">Espanhol</option>
                     <option value="ingles">Inglês</option>
                 </select>
             </form>
 
-            <!-- <a href="https://www.flaticon.com/br/icones-gratis/linkedin" title="linkedin ícones">Linkedin ícones criados por Freepik - Flaticon</a> -->
+            <!-- Linkedin Icon -->
             <a href="https://www.linkedin.com/in/adriano-vin%C3%ADcius-bispo-da-silva-85293a240/">
                 <img class="linkedin-icon" src="../img/icon-linkedin.png" />
             </a>
 
-            <!-- <a href="https://www.flaticon.com/br/icones-gratis/instagram" title="instagram ícones">Instagram ícones criados por Freepik - Flaticon</a> -->
+            <!-- Instagram Icon -->
             <a href="https://www.instagram.com/eu_nicin/">
                 <img class="instagram-icon" src="../img/icon-instagram.png" />
             </a>
         </section>
-
+        
     </footer>
     
-    <!-- Slide Script -->
-    <script type="text/javascript" src="scripts/slides.js"></script>
+    <!-- Imported Javascript -->
+    <script type="text/javascript" src="main.js"></script>
 </body>
 
 </html>
