@@ -1,23 +1,29 @@
-/* --- Styling Home Page --- */
-
 :root {
     --corPrincipal: #f8b82e;
     --corBranca: #fff;
     --corEscura: #6e4b00;
     --corPreta: #000;
     --fonte-principal: 'Oswald';
-  }
+}
+
+
+/* --- Styling Home Page --- */
 
 #home-body {
+    font-size: 16px;
+    font-family: var(--fonte-principal);
+    font-weight: 400;
+
     background-image: url("../img/background.png");
     background-repeat: no-repeat;
-    background-position: right top;
+    background-size: contain;
     background-size: 100%;
 }
 
 header {
     color: var(--corBranca);
     font-family: var(--fonte-principal);
+    font-weight: 400;
     margin-top: 25px;
     height: 80px;
 }
@@ -27,6 +33,7 @@ header>nav {
 }
 
 header>nav>a {
+    font-size: 20px;
     padding: 25px 10px;
     color: var(--corBranca);
     text-decoration: none;
@@ -35,18 +42,19 @@ header>nav>a {
 
 a:hover {
     color: var(--corPrincipal);
+    cursor: pointer;
 }
 
 .border {
-    border: solid var(--corPrincipal);
+    border: 3px solid var(--corPrincipal);
     border-radius: 21px;
     padding: 13px;
-    transition: all 0.2s;
 }
 
 .border:hover {
-    color: var(--corBranca);
-    background-color: var(--corPrincipal);
+    background-color: var(--corEscura);
+    color: var(--corPrincipal);
+    transition: all 0.2s;
 }
 
 #logo {
@@ -54,11 +62,11 @@ a:hover {
     line-height: 5;
 }
 
-#logoMarca {
+#logo-white {
     width: 30%;
 }
 
-#text-below-logo {
+#text-below {
     width: 665px;
     height: 109px;
     font-size: 18px;
@@ -75,7 +83,7 @@ a:hover {
 #button {
     width: 209.9px;
     height: 57.1px;
-    padding: 10px 10px;
+    padding: 15px 25px;
     border-radius: 8px;
     background-color: var(--corPrincipal);
     color: var(--corBranca);
@@ -88,75 +96,72 @@ a:hover {
     transition: all 0.2s;
 }
 
-section#diferenciais {
-    width: 100%;
-    height: 300px;
+#differentials {
     display: flex;
-    /*<==*/
-    align-content: center;
-    /*<==*/
-    align-self: center;
-    /**/
     justify-content: center;
-    /**/
 }
 
-#diferenciais>figure {
+#differentials>figure {
     width: 300px;
     height: 350px;
     border-radius: 5px;
     box-shadow: 0 2px 9px 0 rgba(0, 0, 0, 0.14);
     background-color: var(--corBranca);
     padding: 10px;
+    margin: 0 40px;
 }
 
-.diferenciais-titulo {
+.differentials-title {
+    color: #2c2e30;
+    font-size: 18px;
+}
+
+.differentials-title strong {
     width: 158px;
     height: 63px;
-    font-size: 24px;
-    font-weight: 400;
-    font-family: var(--fonte-principal);
+    font-size: 20px;
+    font-weight: 700;
     line-height: 1.42;
     letter-spacing: normal;
     text-align: center;
-    color: var(--corPrincipal)
+    color: var(--corPrincipal);
 }
 
-.saiba-mais:hover:after {
-    width: 133.9px;
-    height: 0;
-    border: solid 3px #98ca3f;
-}
-
-.slide-depoimento {
-    text-decoration: none;
-}
-
-.slides {
-    text-decoration: none;
-}
-
-.depoimento {
+.container-slide {
     width: 100%;
-    height: 900px;
-    background-color: #98ca3f;
+    height: 900px; /*1070px tamanho do design*/
+    background-color: var(--corPrincipal);
     display: flex;
     align-content: center;
     justify-content: center;
     align-items: center;
 }
 
-.titulo-depoimento {
-    width: 456.5px;
-    height: 540.4px;
+#container-figure {
+    text-align: left;
 }
 
-.texto-depoimento {
+.container-title {
+    height: 36px;/*Utilizei o auto*/
+    font-family: "Aileron Bold";
+    font-size: 34px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.35;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+    /*margin-bottom: 90px;*/
+}
+
+.container-text {
     width: 421px;
-    height: 366px;
+    height: 340px;
+    font-family: "Aileron LightItalic";
     font-size: 28px;
     font-weight: 300;
-    font-style: italic;
+    font-style: normal;
     font-stretch: normal;
     line-height: 1.71;
     letter-spacing: normal;
@@ -164,10 +169,46 @@ section#diferenciais {
     color: #182c3f;
 }
 
-.usuario-depoimento {
-    text-decoration: none;
+.person-name {
+    width: 147px;
+    height: 28px;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 1.19;
+    text-align: left;
+    display: block;
+    color: #ffffff;
 }
 
-.infoUsuario-depoimento {
-    text-decoration: none;
+.person-profession {
+    height: 20px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.25;
+    text-align: left;
+    color: #182c3f;
+    display: block;
+}
+
+.slide-bar {
+    float: left;
+}
+
+.person-picture {
+    width: 456.49px;
+    height: 540.42px;
+    border-radius: 3px;
+    /*float: right;*/
+}
+
+#black-logo{
+    margin-top: 50px;    
+    margin-right: center;
+    margin-bottom: 65px;
+    margin-left: center;
+}
+
+#black-logo>img{
+    width: 329.7px;
+    height: 206.9px;
 }
