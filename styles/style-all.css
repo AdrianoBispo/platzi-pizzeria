@@ -12,7 +12,7 @@
     padding: 0;
 }
 
-.header__secundario {
+.secondary-header {
     height: 80px;
     width: 100%;
     background-color: var(--corPrincipal);
@@ -21,7 +21,7 @@
     align-items: center;
 }
 
-.header__secundario>.header__direita>a {
+.secondary-header>.right-header>a {
     color: var(--corBranca);
     margin-right: 2em;
     font-family: var(--fonte-principal);
@@ -29,20 +29,20 @@
     font-size: 18px;
 }
 
-.header__secundario>nav>a:hover {
+.secondary-header>nav>a:hover {
     color: var(--corEscura);
 }
 
-.header__direita {
+.right-header {
     float: right;
 }
 
-.header__esquerda {
+.left-header {
     margin: auto;
     margin-left: -80px;
 }
 
-.header__esquerda>img {
+.left-header>img {
     width: 25%;
 }
 
