@@ -5,6 +5,7 @@
     --corBranca: #fff;
     --corEscura: #211700;
     --fonte-principal: 'Oswald';
+    --corPreta: #000;
   }
 
 * {
@@ -15,7 +16,7 @@
 .secondary-header {
     height: 80px;
     width: 100%;
-    background-color: var(--corPrincipal);
+    background-color: var(--corPreta);
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -30,7 +31,7 @@
 }
 
 .secondary-header>nav>a:hover {
-    color: var(--corEscura);
+    color: var(--corPrincipal);
 }
 
 .right-header {
