@@ -5,12 +5,43 @@
 #sabores {
     display: grid;
     width: 60%;
-    margin: auto;
+    margin: 0 auto;
     text-align: left;
+    grid-gap: 5px;
 }
 
 #sabores>figure {
     height: 200px;
+}
+
+.sabores-title {
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 1.42;
+    text-align: left;
+    color: var(--corPreta);
+}
+
+.sabores-paragraph {
+    font-size: 16px;
+    line-height: 1.42;
+    text-align: left;
+    color: var(--corPreta);
+}
+
+.link-sabores {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.42;
+    letter-spacing: normal;
+    text-align: left;
+    color: var(--corPreta);
+    padding-bottom: 2px;
+}
+
+.sabores-image {
+    width: 600px;
+    height: 600px;
 }
 
 .sabores-1-1 {
@@ -41,4 +72,29 @@
 .sabores-3-2 {
     grid-row: 3;
     grid-column: 2;
+}
+
+#click-mais-sabores {
+    width: 100%;
+    height: 84px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    background-color: var(--corPrincipal);
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+#mais-sabores {
+    font-size: 26px;
+    font-weight: 300;
+    line-height: 1.71;
+    letter-spacing: normal;
+    text-align: center;
+    color: #2C2E30;
+}
+
+#mais-sabores {
+    border-bottom: 3px solid #ffffff;
 }
