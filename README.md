@@ -1,8 +1,9 @@
-<img align="left" width="60%" src="https://midias.agazeta.com.br/2021/07/08/pizzas-da-rede-carioca-de-delivery-forneria-original-com-loja-em-vila-velha-554300.png" />
-
-# 🍕 Platzi Pizzeria
-<img align="left" src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=RED&style=for-the-badge" />
-<br><br> 
+<h1>
+  <img align="left" height="100vw" src="https://github.com/AdrianoBispo/platzi-pizzeria/blob/master/img/FavIcon-logo.png"/>
+  Platzi Pizzeria
+</h1>
+<img src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=RED&style=for-the-badge" />
+<br>
 
 A pizza é uma das comidas mais famosas do mundo inteiro, e a sua popularidade só aumenta com a variedade de sabores que cresce cada vez mais.
 
