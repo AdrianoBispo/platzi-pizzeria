@@ -6,7 +6,10 @@
 }
 
 fieldset {
-    margin: 5px 0;
+    width: 50%;
+    margin: 1em 0;
+    display: flex;
+    flex-direction: column;
 }
 
 select {
